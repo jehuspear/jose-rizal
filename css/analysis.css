@@ -1,0 +1,108 @@
+.main-content {
+    margin-top: 80px;
+    padding: 40px 0;
+}
+
+.analysis-header {
+    background-color: #f8f9fa;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.analysis-header h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.analysis-header p {
+    color: #34495e;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.analysis-section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+.analysis-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.key-point {
+    background: #f8f9fa;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.key-point h4 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.key-point p {
+    color: #34495e;
+    margin-bottom: 0;
+}
+
+.analysis-image {
+    margin: 20px 0;
+}
+
+.analysis-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.quote-block {
+    font-style: italic;
+    color: #34495e;
+    padding: 20px;
+    margin: 20px 0;
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 20px;
+    }
+
+    .analysis-header {
+        padding: 20px;
+        margin: -20px -20px 30px -20px;
+        border-radius: 0;
+    }
+
+    .analysis-content {
+        padding: 20px;
+    }
+
+    .key-point {
+        margin: 15px -20px;
+        border-radius: 0;
+    }
+}
