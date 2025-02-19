@@ -136,6 +136,27 @@ h2::after {
     margin-top: 1rem;
 }
 
+/* Essay Cover Styles */
+.essay-cover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.essay-cover:hover {
+    transform: translateY(-5px);
+}
+
+.essay-cover img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 991.98px) {
     .hero-content h1 {
@@ -162,6 +183,12 @@ h2::after {
 
     .biography-image {
         margin-top: 2rem;
+    }
+
+    .essay-cover {
+        max-width: 280px;
+        margin: 20px auto;
+        padding: 10px;
     }
 }
 
