@@ -1,0 +1,153 @@
+.main-content {
+    margin-top: 80px;
+    padding: 20px 0;
+}
+
+.work-header {
+    background-color: #f8f9fa;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.cover-image {
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.cover-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.work-title {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.work-subtitle {
+    color: #34495e;
+    font-style: italic;
+}
+
+.section-title {
+    color: #2c3e50;
+    margin: 30px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+.historical-image {
+    margin: 20px 0;
+}
+
+.historical-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.plot-part {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.plot-part h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.quote-block {
+    background-color: #f8f9fa;
+    border-left: 4px solid #3498db;
+    padding: 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 15px;
+    }
+
+    .work-header {
+        padding: 20px 15px;
+        margin: 0 -15px 30px -15px;
+        border-radius: 0;
+    }
+
+    .work-title {
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+
+    .work-subtitle {
+        font-size: 1.4rem;
+    }
+
+    .cover-image {
+        max-width: 280px;
+        margin: 0 auto 20px auto;
+        padding: 10px;
+    }
+
+    .historical-image {
+        margin: 15px -15px;
+    }
+
+    .historical-image img {
+        border-radius: 0;
+    }
+
+    .image-caption {
+        margin: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    ul, ol {
+        padding-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    ul li, ol li {
+        margin-bottom: 8px;
+    }
+
+    .plot-part {
+        padding: 15px;
+        margin: 0 -15px 20px -15px;
+        border-radius: 0;
+    }
+
+    .quote-block {
+        margin: 15px -15px;
+        padding: 15px;
+        border-radius: 0;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+        margin: 25px -15px 15px -15px;
+        padding: 0 15px 10px 15px;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

@@ -89,6 +89,7 @@ h2 {
     font-weight: 600;
     position: relative;
     padding-bottom: 0.5rem;
+    margin-left: 1rem;
 }
 
 h2::after {
@@ -107,6 +108,8 @@ h2::after {
     line-height: 1.8;
     color: #34495e;
     margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .biography-image {
