@@ -1,8 +1,12 @@
+body {
+    background-color: #f5dab7;
+}
+
 /* Navigation Styles */
 .navbar {
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    background-color: rgba(255, 255, 255, 0.95) !important;
+    background-color: #fce8cf !important;
 }
 
 .nav-logo {
@@ -12,18 +16,18 @@
 }
 
 .navbar-nav .nav-link {
-    font-weight: 500;
+    font-weight: 700;
     color: #333;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #007bff;
+    color: #9e6f35;
 }
 
 .navbar-nav .nav-link.active {
-    color: #007bff;
+    color: #9e6f35;
 }
 
 /* Hero Section with Video Background */
@@ -51,6 +55,12 @@
     object-fit: cover;
 }
 
+/* Image Title */
+.title {
+    max-width: 100%;
+    height: auto;
+  }
+
 .hero-content {
     background: rgba(0, 0, 0, 0.5);
     padding: 2rem;
@@ -75,8 +85,10 @@
 
 /* Main Content Sections */
 .main-content {
-    padding: 4rem 0;
-    background-color: #fff;
+    padding: 3rem 3rem;
+    border-radius: 15px;
+    background-color: #f5e2ca;
+    margin-bottom: 40px;
 }
 
 section {
