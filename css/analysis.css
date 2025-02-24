@@ -31,7 +31,7 @@
     color: #2c3e50;
     margin-bottom: 30px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #694a24;
 }
 
 .analysis-content {
@@ -46,7 +46,7 @@
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #694a24;
 }
 
 .key-point h4 {
@@ -83,7 +83,7 @@
     padding: 20px;
     margin: 20px 0;
     background: #f8f9fa;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #694a24;
 }
 
 @media (max-width: 768px) {
