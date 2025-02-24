@@ -16,3 +16,31 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+// Navbar Scroll Effect
+document.addEventListener('DOMContentLoaded', function() {
+    const navbar = document.querySelector('.navbar');
+    const heroSection = document.querySelector('.hero-section');
+    
+    function updateNavbar() {
+        if (heroSection) {
+            const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+            const scrollPosition = window.scrollY + navbar.offsetHeight;
+            
+            if (scrollPosition < heroBottom) {
+                navbar.classList.add('transparent');
+            } else {
+                navbar.classList.remove('transparent');
+            }
+        }
+    }
+    
+    // Initial check
+    updateNavbar();
+    
+    // Update on scroll
+    window.addEventListener('scroll', updateNavbar);
+    
+    // Update on window resize
+    window.addEventListener('resize', updateNavbar);
+});
